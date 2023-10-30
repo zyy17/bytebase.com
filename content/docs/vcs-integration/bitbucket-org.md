@@ -39,7 +39,7 @@ Fill in the form with the provided info on the Bytebase setup wizard:
 
 - **Name**: Can be other names than "Bytebase", as long as the workspace admin can identify this consumer is for "Bytebase"
 - **Callback URL**: Begins with the **host:port** where the Bytebase console is running, and followed by **/oauth/callback**. This is the URI Bitbucket uses to callback Bytebase during the OAuth flow.
-- **Permissions**: Account > Read, Webhooks > Read and write, Repositories > Write
+- **Permissions**: Account > Read, Webhooks > Read and Write, Repositories > Write
 
 Click the **Save** button after filling the info on Bitbucket.org and you will see a created consumer, along with its Key and Secret.
 
