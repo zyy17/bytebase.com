@@ -35,21 +35,21 @@ The API example repository is at https://github.com/bytebase/api-example
 
 ## Start Bytebase and prepare the accounts
 
-1. Make sure your Docker daemon is running. Copy and paste the commands to start one Bytebase and two MySQL instances via Docker.
+1. Make sure your Docker daemon is running. Copy and paste the commands to start Bytebase.
 
    <IncludeBlock url="/docs/get-started/install/terminal-docker-run"></IncludeBlock>
 
-1. Bytebase is now running via Docker, and you can access it via `localhost:5678`. Register the first admin account which will be granted [`Workspace Admin`](/docs/concepts/roles-and-permissions).
+2. Bytebase is now running via Docker, and you can access it via `localhost:5678`. Register the first admin account which will be granted [`Workspace Admin`](/docs/concepts/roles-and-permissions).
 
-1. Log in as the admin user, click on the gear icon on the top right corner and click on **Workspace** > **Members**.
+3. Log in as the admin user, click on the gear icon on the top right corner and click on **Workspace** > **Members**.
 
-1. Turn on **Create as service account**, fill in with `api-example`, choose the `DBA` role that is sufficient for this tutorial and click **Add**.
+4. Turn on **Create as service account**, fill in with `api-example`, choose the `DBA` role that is sufficient for this tutorial and click **Add**.
    ![service-account-create](/content/docs/tutorials/api/service-account-create.webp)
 
-1. Find the newly created service account in the **Active members** section and click on **Copy Service Key**. We will use this token to authenticate the API calls.
+5. Find the newly created service account in the **Active members** section and click on **Copy Service Key**. We will use this token to authenticate the API calls.
    ![service-account-key](/content/docs/tutorials/api/service-account-key.webp)
 
-1. Click **Select Project** on the top bar, and you'll see there's a sample project called **Sample Project**. Click on it to enter the project page, there are two databases: `hr_prod` and `hr_test`.
+6. Click **Select Project** on the top bar, and you'll see there's a sample project called **Sample Project**. Click on it to enter the project page, there are two databases: `hr_prod` and `hr_test`.
 
 ## Create a schema change in Bytebase Console
 
