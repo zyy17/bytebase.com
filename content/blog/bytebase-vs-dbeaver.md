@@ -11,7 +11,7 @@ While interacting with databases, a suitable tool can significantly boost your e
 
 ## What Bytebase and DBeaver have in common
 
-- Support database management through a GUI, featuring capabilities such as querying, exporting, data visualization, and more.
+- Support database management through a GUI, featuring capabilities such as querying, exporting, ER-diagram and more.
 - Tiered pricing, offering both free and paid plans.
 - Support for a wide range of databases, including SQL and NoSQL.
 - Open source, DBeaver has a long history, while Bytebase is growing faster.
